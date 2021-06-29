@@ -1,59 +1,59 @@
 const categories = [
-    {
-        key: 1,
-        img_src: "./assets/souchi.jpg",
-        img_atr: "Sushi",
-        title: "Sushi",
-        description: "necessitatibus tenetur. Ea, numquam cupiditate.",
-        content: "sit amet consectetur adipisicing iste neque optio earum labore, ipsam",
-    },
-    {
-        key: 2,
-        img_src: "./assets/pizza.jpg",
-        img_atr: "Pizza",
-        title: "Pizza",
-        description: "Lorem ipsum dolossumenda maaceat voluptatem asperiores",
-        content: "repellat iste neque optio earum labore,   necessitatibus. Ea, numquam cupiditate.",
-    },
-    {
-        key: 3,
-        img_src: "./assets/salade.jpg",
-        img_atr: "Salad",
-        title: "Salad",
-        description: "",
-        content: "ipsum dolor sit . Pariatur e optio earum labore, ipsam facilis ",
-    },
-    {
-        key: 4,
-        img_src: "./assets/ramen.jpg",
-        img_atr: "Ramen",
-        title: "Ramen",
-        description: "Pariatur fugiatneque  voes eos illum necessitatibus tenetur.",
-        content: " dolor sit amet consectetur adipisbore, ipsam facilis assumenda magni",
-    },
-    {
-        key: 5,
-        img_src: "./assets/Fast-Food.jpg",
-        img_atr: "Fast Food",
-        title: "Fast Food",
-        description: "Lorem ipsum dolnsectetur adipisicing elit.giat repellat iste neque optio",
-        content: "voluptatem asperiores eos illum necesnetur. Ea, numquam cupiditate.",
-    },
+  {
+    key: 1,
+    img_src: './assets/souchi.jpg',
+    img_atr: 'Sushi',
+    title: 'Sushi',
+    description: 'necessitatibus tenetur. Ea, numquam cupiditate.',
+    content: 'sit amet consectetur adipisicing iste neque optio earum labore, ipsam',
+  },
+  {
+    key: 2,
+    img_src: './assets/pizza.jpg',
+    img_atr: 'Pizza',
+    title: 'Pizza',
+    description: 'Lorem ipsum dolossumenda maaceat voluptatem asperiores',
+    content: 'repellat iste neque optio earum labore,   necessitatibus. Ea, numquam cupiditate.',
+  },
+  {
+    key: 3,
+    img_src: './assets/salade.jpg',
+    img_atr: 'Salad',
+    title: 'Salad',
+    description: '',
+    content: 'ipsum dolor sit . Pariatur e optio earum labore, ipsam facilis ',
+  },
+  {
+    key: 4,
+    img_src: './assets/ramen.jpg',
+    img_atr: 'Ramen',
+    title: 'Ramen',
+    description: 'Pariatur fugiatneque  voes eos illum necessitatibus tenetur.',
+    content: ' dolor sit amet consectetur adipisbore, ipsam facilis assumenda magni',
+  },
+  {
+    key: 5,
+    img_src: './assets/Fast-Food.jpg',
+    img_atr: 'Fast Food',
+    title: 'Fast Food',
+    description: 'Lorem ipsum dolnsectetur adipisicing elit.giat repellat iste neque optio',
+    content: 'voluptatem asperiores eos illum necesnetur. Ea, numquam cupiditate.',
+  },
 ];
 
 function menu(x) {
-  x.classList.toggle("change");
-  var show = document.getElementById("myLinks");
-  if (show.style.display === "flex") {
-    show.style.display = "none";
+  x.classList.toggle('change');
+  const show = document.getElementById('myLinks');
+  if (show.style.display === 'flex') {
+    show.style.display = 'none';
   } else {
-    show.style.display = "flex";
+    show.style.display = 'flex';
   }
 }
 
 const CategoriesWrap = document.querySelector('#categories');
 const lunchCategories = () => {
-  categories.forEach((element)=>{
+  categories.forEach((element) => {
     // CREATE PROJECT ITEM
     const list = document.createElement('li');
     list.classList.add('category');
@@ -87,6 +87,6 @@ const lunchCategories = () => {
     catbody.appendChild(catContent);
     list.appendChild(catbody);
     CategoriesWrap.appendChild(list);
-  })
+  });
 };
 lunchCategories();
