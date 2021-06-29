@@ -4,7 +4,7 @@ const categories = [
         img_src: "./assets/souchi.jpg",
         img_atr: "Souchi",
         title: "Souchi",
-        description: " earum labore, ipsam facilis illum necessitatibus tenetur. Ea, numquam cupiditate.",
+        description: "necessitatibus tenetur. Ea, numquam cupiditate.",
         content: "sit amet consectetur adipisicing iste neque optio earum labore, ipsam",
     },
     {
@@ -12,8 +12,8 @@ const categories = [
         img_src: "./assets/pizza.jpg",
         img_atr: "Pizza",
         title: "Pizza",
-        description: "Lorem ipsum dolorrepellat iste neque  assumenda magni placeat voluptatem asperiores",
-        content: "repellat iste neque optio earum labore,  asperiores eos illum necessitatibus. Ea, numquam cupiditate.",
+        description: "Lorem ipsum dolossumenda maaceat voluptatem asperiores",
+        content: "repellat iste neque optio earum labore,   necessitatibus. Ea, numquam cupiditate.",
     },
     {
         key: 3,
@@ -21,23 +21,23 @@ const categories = [
         img_atr: "Salad",
         title: "Salad",
         description: "",
-        content: "ipsum dolor sit amet consectetur adipisicing elit. Pariatur e optio earum labore, ipsam facilis ",
+        content: "ipsum dolor sit . Pariatur e optio earum labore, ipsam facilis ",
     },
     {
         key: 4,
         img_src: "./assets/ramen.jpg",
         img_atr: "Ramen",
         title: "Ramen",
-        description: "Pariatur fugiat repellat iste neque optio earum placeat voes eos illum necessitatibus tenetur.",
-        content: " dolor sit amet consectetur adipisicing elit. Pariate nequm labore, ipsam facilis assumenda magni",
+        description: "Pariatur fugiatneque  voes eos illum necessitatibus tenetur.",
+        content: " dolor sit amet consectetur adipisbore, ipsam facilis assumenda magni",
     },
     {
         key: 5,
         img_src: "./assets/Fast-Food.jpg",
         img_atr: "Fast Food",
         title: "Fast Food",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.giat repellat iste neque optio",
-        content: "voluptatem asperiores eos illum necessitatibus tenetur. Ea, numquam cupiditate.",
+        description: "Lorem ipsum dolnsectetur adipisicing elit.giat repellat iste neque optio",
+        content: "voluptatem asperiores eos illum necesnetur. Ea, numquam cupiditate.",
     },
 ];
 

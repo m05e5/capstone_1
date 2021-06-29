@@ -144,7 +144,6 @@ h1 {
 .category {
   display: flex;
   align-items: center;
-  justify-content: center;
   margin-left: 5px;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -185,6 +184,11 @@ h1 {
 }
 
 @media only screen and (min-width: 768px){
+  h1 {
+    line-height: 0.9;
+    font-size: 65px;
+  }
+
   #categories {
     display: grid;
     grid-template-columns: auto auto;
@@ -194,6 +198,7 @@ h1 {
   .category {
     align-items: center;
     margin: 1px;
+    margin-top: 1rem;
     width: 90%;
   }
   
