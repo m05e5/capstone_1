@@ -2,8 +2,8 @@ const categories = [
     {
         key: 1,
         img_src: "./assets/souchi.jpg",
-        img_atr: "Souchi",
-        title: "Souchi",
+        img_atr: "Sushi",
+        title: "Sushi",
         description: "necessitatibus tenetur. Ea, numquam cupiditate.",
         content: "sit amet consectetur adipisicing iste neque optio earum labore, ipsam",
     },
