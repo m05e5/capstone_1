@@ -99,7 +99,7 @@ ul {
   right: 0px;
   bottom: 0px;
   left: 0px;
-    opacity: 0.3;
+  opacity: 0.3;
 }
 
 h1 {
@@ -127,6 +127,11 @@ h1 {
   height: 1px;
   background-color: #e43c13;
   width: 100px;
+}
+
+.card-body .card-title {
+  color: #e43c13;
+  font-size: 21px;
 }
 
 .categories-section {
