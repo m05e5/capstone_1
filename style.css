@@ -293,6 +293,12 @@ footer {
   text-align: center;
 }
 
+.summit p {
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
 .about-intro .contact p {
   color: black;
   font-size: 13px;
@@ -306,7 +312,7 @@ footer {
   justify-content: center;
 }
 
-.intro-about-content h1{
+.intro-about-content h1 {
   font-size: 40px;
   position: relative;
   text-align: center;
@@ -321,7 +327,7 @@ footer {
   font-size: 45px;
 }
 
-.intro-about-content h2{
+.intro-about-content h2 {
   font-size: 23px;
   position: relative;
 }
@@ -333,12 +339,6 @@ footer {
   margin: 1rem;
   padding: 1rem;
   max-width: 550px;
-}
-
-.summit p {
-  color: white;
-  position: relative;
-  text-align: center;
 }
 
 .about-intro .contact {
