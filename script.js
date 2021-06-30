@@ -50,6 +50,8 @@ function menu(x) {
     show.style.display = 'flex';
   }
 }
+const drop = document.getElementById('hamburger');
+drop.onclick = menu(this);
 
 const CategoriesWrap = document.querySelector('#categories');
 const lunchCategories = () => {
