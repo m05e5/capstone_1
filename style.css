@@ -119,6 +119,7 @@ h1 {
   font-size: 55px;
   font-weight: bold;
   padding: 1rem;
+  text-align: center;
 }
 
 .intro-message {
@@ -127,6 +128,7 @@ h1 {
   line-height: 1.1;
   font-size: 35px;
   padding-left: 1rem;
+  text-align: center;
 }
 
 .news-events {
@@ -145,6 +147,14 @@ h1 {
   height: 1px;
   background-color: #e43c13;
   width: 50px;
+}
+
+.card-body {
+  background-color: #333;
+}
+
+.card-body p {
+  color: white;
 }
 
 .card-body .card-title {
@@ -260,7 +270,7 @@ footer {
   flex-direction: column;
   align-items: center;
   background-color: rgb(247, 247, 247);
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   position: relative;
 }
@@ -293,12 +303,12 @@ footer {
 }
 
 .intro-about-desc .footer-logo .footer-img {
-    width: 150px;
-    height: 150px;
+  width: 150px;
+  height: 150px;
 }
 
 .intro-about-desc .footer-logo .footer-name p{
-    font-size:45px
+  font-size:45px
 }
 
 .intro-about-content h2{
@@ -313,6 +323,12 @@ footer {
   margin: 1rem;
   padding: 1rem;
   max-width: 550px;
+}
+
+.summit p {
+  color: white;
+  position: relative;
+  text-align: center;
 }
 
 .about-intro .contact {
@@ -388,12 +404,6 @@ footer {
   position: absolute;
 }
 
-.summit p {
-  color: white;
-  position: relative;
-  text-align: center;
-}
-
 .summit h2 {
   color: white;
   font-size: 35px;
@@ -407,11 +417,11 @@ footer {
     display: flex;
     color: white;
   }
-  .medias{
-      display: flex;
-      align-items: center;
-      float: right;
-      margin-left: auto;
+  .medias {
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-left: auto;
   }
 
   header p {
@@ -459,7 +469,7 @@ footer {
   }
 
   #myLinks {
-      display: flex;
-      flex-direction: row;
+    display: flex;
+    flex-direction: row;
   }
 }
