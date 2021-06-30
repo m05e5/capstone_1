@@ -64,7 +64,7 @@ header {
   justify-content: space-between;
   padding-top: 10px;
   overflow: hidden;
-  position: relative;  
+  position: relative;
   box-shadow: 1px 1px 3px #333;
 }
 
@@ -288,6 +288,16 @@ footer {
   opacity: 0.1;
 }
 
+.about-started p {
+  margin: 1rem;
+  text-align: center;
+}
+
+.about-intro .contact p {
+  color: black;
+  font-size: 13px;
+}
+
 .intro-about-content {
   padding-top: 2rem;
   display: flex;
@@ -307,8 +317,8 @@ footer {
   height: 150px;
 }
 
-.intro-about-desc .footer-logo .footer-name p{
-  font-size:45px
+.intro-about-desc .footer-logo .footer-name p {
+  font-size: 45px;
 }
 
 .intro-about-content h2{
@@ -339,11 +349,6 @@ footer {
   align-items: center;
 }
 
-.about-intro .contact p {
-  color: black;
-  font-size: 13px;
-}
-
 .about-intro .contact span {
   color: black;
   font-size: 18px;
@@ -356,11 +361,6 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.about-started p {
-  margin: 1rem;
-  text-align: center;
 }
 
 .about-logo {
@@ -417,6 +417,7 @@ footer {
     display: flex;
     color: white;
   }
+
   .medias {
     display: flex;
     align-items: center;
@@ -465,7 +466,7 @@ footer {
   }
 
   .my-logo {
-      width: 50%;
+    width: 50%;
   }
 
   #myLinks {
