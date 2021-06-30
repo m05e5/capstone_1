@@ -41,7 +41,7 @@ const categories = [
   },
 ];
 const hamburger = document.getElementById('hamburger');
-function menu(event) {
+function menu() {
   hamburger.classList.toggle('change');
   const show = document.getElementById('myLinks');
   if (show.style.display === 'flex') {
@@ -52,8 +52,6 @@ function menu(event) {
 }
 
 hamburger.addEventListener('click', menu);
-
-
 
 const CategoriesWrap = document.querySelector('#categories');
 const lunchCategories = () => {
