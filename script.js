@@ -40,9 +40,9 @@ const categories = [
     content: 'voluptatem asperiores eos illum necesnetur. Ea, numquam cupiditate.',
   },
 ];
-
-function menu(x) {
-  x.classList.toggle('change');
+const hamburger = document.getElementById('hamburger');
+function menu(event) {
+  hamburger.classList.toggle('change');
   const show = document.getElementById('myLinks');
   if (show.style.display === 'flex') {
     show.style.display = 'none';
@@ -50,6 +50,10 @@ function menu(x) {
     show.style.display = 'flex';
   }
 }
+
+hamburger.addEventListener('click', menu);
+
+
 
 const CategoriesWrap = document.querySelector('#categories');
 const lunchCategories = () => {
