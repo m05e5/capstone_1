@@ -5,7 +5,7 @@ ul {
 
 header {
   height: 20px;
-  background-color: #333;
+  background-color: #272a31;
   display: none;
 }
 
@@ -20,7 +20,7 @@ header {
 .bar3 {
   width: 35px;
   height: 5px;
-  background-color: #333;
+  background-color: #272a31;
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -65,7 +65,7 @@ header {
   padding-top: 10px;
   overflow: hidden;
   position: relative;
-  box-shadow: 1px 1px 3px #333;
+  box-shadow: 1px 1px 3px #272a31;
 }
 
 #myLinks {
@@ -132,7 +132,7 @@ h1 {
 }
 
 .news-events {
-  background-color: #333;
+  background-color: #272a31;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -150,7 +150,7 @@ h1 {
 }
 
 .card-body {
-  background-color: #333;
+  background-color: #272a31;
 }
 
 .card-body p {
@@ -174,7 +174,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   padding-top: 2rem;
-  background-color: #333;
+  background-color: #272a31;
 }
 
 .partners-section h2 {

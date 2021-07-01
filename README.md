@@ -4,7 +4,7 @@
 
 Welcome to ISekai restaurant
 
-![screenshot](./assets/readme-img.png)
+![screenshot](./assets/readme-img.PNG)
 
 Isekai restaurant. A place where you can eat food from many different cultures with your family or friends. just come and enjoy
 ## Built With
