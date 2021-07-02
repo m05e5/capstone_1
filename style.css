@@ -358,6 +358,15 @@ footer {
   max-width: 550px;
 }
 
+.intro-desc {
+  border: 2px solid white;
+  background-color: rgb(243, 243, 243);
+  position: relative;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 550px;
+}
+
 .about-intro .contact {
   padding-top: 2rem;
   display: flex;
