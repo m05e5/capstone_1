@@ -7,6 +7,11 @@ header {
   height: 20px;
   background-color: #272a31;
   display: none;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
 }
 
 .container {
@@ -85,7 +90,7 @@ header {
   width: 100%;
   height: 100vh;
   position: relative;
-  background-color: rgb(17, 17, 17);
+  background-color: rgb(243, 243, 243);
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -109,7 +114,7 @@ header {
   right: 1px;
   bottom: 1px;
   left: 1px;
-  opacity: 0.3;
+  opacity: 0.1;
 }
 
 h1 {
@@ -119,7 +124,6 @@ h1 {
   font-size: 55px;
   font-weight: bold;
   padding: 1rem;
-  text-align: center;
 }
 
 .intro-message {
@@ -128,7 +132,12 @@ h1 {
   line-height: 1.1;
   font-size: 35px;
   padding-left: 1rem;
-  text-align: center;
+}
+
+.intro-text-date {
+  font-size: 30px;
+  font-weight: 800;
+  margin-left: 1rem;
 }
 
 .news-events {
@@ -149,17 +158,25 @@ h1 {
   width: 50px;
 }
 
+.card-img-top {
+  width: 25%;
+}
+
 .card-body {
   background-color: #272a31;
+  display: flex;
+  align-items: center;
 }
 
 .card-body p {
   color: white;
+  font-size: 14px
 }
 
 .card-body .card-title {
   color: #e43c13;
-  font-size: 21px;
+  font-size: 18px;
+  margin-right: 5px;
 }
 
 .categories-section {
@@ -199,7 +216,7 @@ h1 {
   margin-left: 5px;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  width: 90%;
+  width: 95%;
 }
 
 .cat-line {
@@ -221,8 +238,8 @@ h1 {
 }
 
 .cat-img {
-  height: 180px;
-  width: 160px;
+  height: 150px;
+  width: 130px;
   margin-right: 1rem;
 }
 
@@ -418,11 +435,21 @@ footer {
     color: white;
   }
 
+  .nav {
+    padding-top: 1px;
+  }
+
   .medias {
     display: flex;
     align-items: center;
     float: right;
     margin-left: auto;
+    padding-right: 6rem;
+  }
+
+  .medias span {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   header p {
@@ -441,15 +468,33 @@ footer {
     display: none;
   }
 
+  .intro {
+    padding-left: 6rem;
+  }
+
   h1 {
     line-height: 0.9;
     font-size: 65px;
+  }
+
+  .card-img-top {
+    width: 100%;
+  }
+
+  .card-body {
+    flex-direction: column;
+  }
+
+  .card-body p {
+    font-size: 16px
   }
 
   #categories {
     display: grid;
     grid-template-columns: auto auto;
     width: 100%;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   .category {
@@ -467,10 +512,12 @@ footer {
 
   .my-logo {
     width: 50%;
+    padding-left: 4rem;
   }
 
   #myLinks {
     display: flex;
     flex-direction: row;
+    padding-right: 6rem;
   }
 }

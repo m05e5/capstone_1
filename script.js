@@ -39,6 +39,14 @@ const categories = [
     description: 'Lorem ipsum dolnsectetur adipisicing elit.giat repellat iste neque optio',
     content: 'voluptatem asperiores eos illum necesnetur. Ea, numquam cupiditate.',
   },
+  {
+    key: 6,
+    img_src: './assets/rice.jpg',
+    img_atr: 'Onigiri',
+    title: 'Onigiri',
+    description: 'Lorem ipsum dolnsectetur adipisicing elit.giat repellat iste neque optio',
+    content: 'voluptatem asperiores eos illum necesnetur. Ea, numquam cupiditate.',
+  },
 ];
 const hamburger = document.getElementById('hamburger');
 function menu() {
